@@ -1,0 +1,99 @@
+.home{
+    width:100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.home-content{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width:280px;
+    height: 100vh;
+    background-color:rgb(2, 2, 34);
+    box-sizing: border-box;
+}
+.sidebar .img{
+    width:160px;
+    height: 160px;
+    margin:10px 0;
+    border-radius: 50%;
+    border:6px solid cyan;
+    cursor: pointer;
+}
+
+.sidebar .icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 100vh;
+    color: white;
+    cursor: pointer;
+}
+.sidebar .icon{
+    width:50px;
+    height: 50px;
+    transition: 0.5s;
+    color: cyan;
+}
+.icon:hover{
+    color:goldenrod ;
+    transform: rotate(360deg);
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height: 80vh;
+    justify-content: start;
+    align-items: center;
+    margin:20px;
+}
+.int-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+}
+.int-content:hover{
+    background-color: black;
+    color:cyan;
+    border-radius: 10px;
+    box-shadow: 0.2px 0.2px;
+}
+.btn{
+    padding:8px 10px;
+    border:1px solid goldenrod;
+    color: cyan;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: goldenrod;
+    color:white;
+}
+
+@media (max-width:700px){
+    .sidebar{
+        display: none;
+    }
+    .int-content{
+        width: 300px;
+        height: 200px;
+        
+    }
+    .int-content h1{
+        font-size: 20px;
+    }
+}

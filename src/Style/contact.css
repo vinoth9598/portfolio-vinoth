@@ -1,0 +1,109 @@
+.contact{
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+.contact-content{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color:pink;
+    padding:20px;
+}
+h2{
+    color:rebeccapurple;
+    text-decoration: underline 5px purple;
+    padding:10px;
+    font-family: sans-serif;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: start;
+    margin:10px;
+    padding-left: 10px;
+}
+.name, .email{
+    width:350px;
+    height: 40px;
+    outline: none;
+    padding:20px;
+    font-size: 15px;
+    border-radius: 30px;
+    overflow: hidden;
+    border:1px solid white;
+    box-shadow: 0.2px 0.3px 0.2px;
+}
+.textarea{
+    width:350px;
+    height: 80px;
+    outline: none;
+    padding:10px;
+    font-size: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    border:1px solid white;
+    box-shadow: 0.2px 0.3px 0.2px;
+    overflow: auto;
+}
+.button{
+    width: 100px;
+    padding: 6px;
+    border:1px solid pink;
+    color: blue;
+    border-radius: 1px;
+    cursor: pointer;
+    box-shadow: 0.2px 0.2px 0.4px;
+}
+.button:hover{
+    background-color: darkblue;
+    color:white;
+    border-radius: 10px;
+}
+.mes{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.mes{
+    margin:10px;
+    width:400px;
+    height: 400px;
+
+}
+.message{
+    position: relative;
+    width:300px;
+    height: 300px;
+    color:blue;
+}
+.mess{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    color:darkblue;
+}
+
+@media (max-width:600px){
+    .mes{
+        display: none;
+    }
+
+}
+
+@media (max-width:400px){
+    .name , .email , .textarea{
+        width:250px;
+        overflow: auto;
+    }
+}
