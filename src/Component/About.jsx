@@ -25,6 +25,9 @@ function About() {
                 <h4>Skills</h4>
                 <p>Adoptive Environment</p>
                 <p>Good communication and learner</p>
+                <h4>Achievements</h4>
+                <p>Full stack development project completed like as Gmail-clone and note applications</p>
+                <p>Three hundred problem solving to javascript programming language.</p>
               </div>
           </div>
         </div>

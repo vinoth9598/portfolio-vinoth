@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { BiLogoNetlify } from "react-icons/bi";
 import { SiRender } from "react-icons/si";
 import "../Style/home.css";
-
+import img from "../Image/resume.jpg";
 function Home() {
   return (
     <div className='home'>
@@ -29,6 +29,7 @@ function Home() {
             <h1>I'm Vinoth Web Developer </h1>
             <h4>Based in Tamilnadu , Chennai</h4>
             <button className='btn'>Hire me</button>
+            <a href={img} download={img}><button>Download Resume</button></a>
           </div>
         </div>
       </div>
